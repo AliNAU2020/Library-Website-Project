@@ -1,0 +1,248 @@
+/* the styles for the elements */
+* {
+	margin: 0;
+	padding: 0;
+}
+html {
+	background-color: white;
+}
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 100%;
+	width: 99%;
+	max-width: 960px;
+	margin: 0 auto;
+	border: 3px solid #931420;
+	background-color: #fffded;
+}
+a:focus, a:hover {
+	font-style: italic;
+}
+/* the styles for the header */
+header {
+	padding: 1.5em 0 2em 0;
+	border-bottom: 3px solid #931420;
+	background-image: -moz-linear-gradient(
+	    30deg, #f6bb73 0%, #f6bb73 30%, white 50%, #f6bb73 80%, #f6bb73 100%);
+	background-image: -webkit-linear-gradient(
+	    30deg, #f6bb73 0%, #f6bb73 30%, white 50%, #f6bb73 80%, #f6bb73 100%);
+	background-image: -o-linear-gradient(
+	    30deg, #f6bb73 0%, #f6bb73 30%, white 50%, #f6bb73 80%, #f6bb73 100%);
+	background-image: linear-gradient(
+	    30deg, #f6bb73 0%, #f6bb73 30%, white 50%, #f6bb73 80%, #f6bb73 100%);
+}
+header h2 {
+	font-size: 175%;
+	color: #800000;
+}
+header h3 {
+	font-size: 130%;
+	font-style: italic;
+}
+header img {
+	float: left;
+	padding: 0 4%;
+}
+.shadow {
+	text-shadow: 2px 2px 2px #800000;
+}
+/* the styles for the main content */
+main{
+	
+}
+
+#nav_menu ul{
+	list-style-type: none;
+	position: relative;
+}
+
+#nav_menu ul li{
+	float:left;
+	width: 20%;
+}
+
+#nav_menu ul ul{
+	display: none;
+	position: absolute;
+	top: 100%;
+}
+
+#nav_menu ul ul li { float: none;
+}
+
+#nav_menu ul li:hover > ul {
+	display: block; 
+	width: 100%;}
+
+#nav_menu > ul::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+#nav_menu ul li a{
+	text-align: center;
+	display: block;
+	padding: 1em 0;
+	text-decoration: none;
+	background-color:#800000;
+	color: white;
+	font-weight: bold;
+}
+
+#nav_menu ul li a.current {color: yellow;}
+
+#nav_menu ul li a.lastitem { 
+	border-right: none;
+	padding: 0 0; 
+}
+
+ul { list-style-type: circle; }
+
+article{
+	float:right;
+	padding-top: .5em;
+	padding-bottom: .5em;
+	border-top: 2px solid #800000;
+	border-bottom: 2px solid #800000;
+}
+
+article h2{
+	padding-top: 0em;
+}
+
+article h3{
+	font-size: 105%;
+	padding-bottom: .25em;
+}
+
+article img{
+	float: right;
+	margin-top:auto;
+	margin-bottom:auto;
+	margin-left:auto;
+	border: 1px solid black;
+	max-width: 40%;
+	min-width: 150px;
+}
+
+#mobile_menu {
+display: none;
+}
+
+@media only screen and (max-width: 959px){
+	section h1{font-size: 135%;}
+	section h2, aside h2 {font-size: 120%;}
+
+}
+
+@media only screen and (max-width: 767px){
+	header img{float:none;}
+	header, footer p{text-align: center;}
+	section, aside{float: none;
+			widths: 96%}
+	aside{padding-right: 2%;}
+	article img{Max-width: 30%;}
+	aside_small{-moz-column-count:2;
+		    -webkit-column-count:2;
+		     column-count:2;}
+	#nav_menu { display: none; }
+	#mobile_menu { display: block; }
+	.slicknav_menu {background-color: #800000 !important; }
+	body {
+		width: 100%; /* full width of screen */
+		margin: 0; /* no margins */
+		border: none;}
+	footer p { margin-right: 0; }
+	
+}
+
+@media only screen and (max-wisth:480px){
+	aside{float:none;}
+	section{float:none;}
+	html{font-size:90%;}
+}
+
+h1{
+	font-size: 150%;
+	padding-top: .5em;
+	padding-bottom: .25em;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+
+aside h2{
+	color: #800000;
+	font-size: 130%;
+	padding: .5em 0 .25em 0;
+}
+
+section h2{
+	color: #800000;
+	font-size: 130%;
+	padding: .5em 0 .25em 0;
+}
+
+aside h3 {
+	font-size: 105%;
+	padding-bottom: .25em;
+}
+
+section h3 {
+	font-size: 105%;
+	padding-bottom: .25em;
+}
+
+aside img {
+	padding-bottom: 1em;
+}
+
+section img {
+	padding-bottom: 1em;
+}
+
+main p {
+	padding-bottom: .5em;
+}
+main blockquote {
+	padding: 0 2em;
+	font-style: italic;
+}
+main ul {
+	padding: 0 0 .25em 1.25em;
+}
+main li {
+	padding-bottom: .35em;
+}
+
+main h2{
+	color: #800000;
+	padding-bottom: .5em;
+}
+
+/* the styles for the footer */
+footer {
+	background-color: #931420;
+	clear:both;
+}
+footer p {
+	text-align: center;
+	color: white;
+	padding: 1em 0;
+}
+
+section{
+	float:right;
+	width: 66%;
+	padding-right: 2%;
+	padding-left: 2%;
+	padding-bottom: 20px;
+}
+
+aside{
+	width: 26%;
+	float: left;
+	padding-left: 2%;
+	padding-bottom: 20px;
+}
+
