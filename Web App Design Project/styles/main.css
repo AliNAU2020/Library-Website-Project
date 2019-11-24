@@ -3,16 +3,19 @@
 	margin: 0;
 	padding: 0;
 }
-html {
-	background-color: white;
+html{
+	background: url("../images/glasses_background.png");
+	background-repeat: no-repeat;
+	background-size: cover;
 }
+
 body {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 100%;
 	width: 99%;
 	max-width: 960px;
 	margin: 0 auto;
-	border: 3px solid #931420;
+	border: 3px solid #7851A9;
 	background-color: #fffded;
 }
 a:focus, a:hover {
@@ -21,19 +24,19 @@ a:focus, a:hover {
 /* the styles for the header */
 header {
 	padding: 1.5em 0 2em 0;
-	border-bottom: 3px solid #931420;
+	border-bottom: 3px solid #7851A9;
 	background-image: -moz-linear-gradient(
-	    30deg, #f6bb73 0%, #f6bb73 30%, white 50%, #f6bb73 80%, #f6bb73 100%);
+	    30deg, #7851A9 0%, #7851A9 30%, white 50%, #7851A9 80%, #7851A9 100%);
 	background-image: -webkit-linear-gradient(
-	    30deg, #f6bb73 0%, #f6bb73 30%, white 50%, #f6bb73 80%, #f6bb73 100%);
+	    30deg, #7851A9 0%, #7851A9 30%, white 50%, #7851A9 80%, #7851A9 100%);
 	background-image: -o-linear-gradient(
-	    30deg, #f6bb73 0%, #f6bb73 30%, white 50%, #f6bb73 80%, #f6bb73 100%);
+	    30deg, #7851A9 0%, #7851A9 30%, white 50%, #7851A9 80%, #7851A9 100%);
 	background-image: linear-gradient(
-	    30deg, #f6bb73 0%, #f6bb73 30%, white 50%, #f6bb73 80%, #f6bb73 100%);
+	    30deg, #7851A9 0%, #7851A9 30%, white 50%, #7851A9 80%, #7851A9 100%);
 }
 header h2 {
 	font-size: 175%;
-	color: #800000;
+	color: #190236;
 }
 header h3 {
 	font-size: 130%;
@@ -44,7 +47,7 @@ header img {
 	padding: 0 4%;
 }
 .shadow {
-	text-shadow: 2px 2px 2px #800000;
+	text-shadow: 2px 2px 2px #7851A9;
 }
 /* the styles for the main content */
 main{
@@ -85,7 +88,7 @@ main{
 	display: block;
 	padding: 1em 0;
 	text-decoration: none;
-	background-color:#800000;
+	background-color:#7851A9;
 	color: white;
 	font-weight: bold;
 }
@@ -103,8 +106,8 @@ article{
 	float:right;
 	padding-top: .5em;
 	padding-bottom: .5em;
-	border-top: 2px solid #800000;
-	border-bottom: 2px solid #800000;
+	border-top: 2px solid #7851A9;
+	border-bottom: 2px solid #7851A9;
 }
 
 article h2{
@@ -148,7 +151,7 @@ display: none;
 		     column-count:2;}
 	#nav_menu { display: none; }
 	#mobile_menu { display: block; }
-	.slicknav_menu {background-color: #800000 !important; }
+	.slicknav_menu {background-color: #7851A9 !important; }
 	body {
 		width: 100%; /* full width of screen */
 		margin: 0; /* no margins */
@@ -172,13 +175,13 @@ h1{
 }
 
 aside h2{
-	color: #800000;
+	color: #190236;
 	font-size: 130%;
 	padding: .5em 0 .25em 0;
 }
 
 section h2{
-	color: #800000;
+	color: #190236;
 	font-size: 130%;
 	padding: .5em 0 .25em 0;
 }
@@ -216,7 +219,7 @@ main li {
 }
 
 main h2{
-	color: #800000;
+	color: #190236;
 	padding-bottom: .5em;
 }
 
