@@ -1,0 +1,1 @@
+<?php header ('Location: Web App Design Project/index.html') ; ?>
