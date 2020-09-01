@@ -1,4 +1,3 @@
-<?php header ('Location: /index.html') ; ?>
 <?php 
 	include('functions.php');
 if (!isLoggedIn()) {
