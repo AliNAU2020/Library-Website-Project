@@ -1,3 +1,4 @@
+<?php header ('Location: /Web App Design Project/index.html') ; ?>
 <?php 
 	include('functions.php');
 if (!isLoggedIn()) {
